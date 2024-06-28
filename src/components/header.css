@@ -1,0 +1,15 @@
+.hero-image-small,
+.hero-image-mid,
+.hero-image {
+  clip-path: polygon(96% 0, 100% 0, 100% 69%, 75% 100%, 0 100%);
+  background-color: rgb(8, 18, 32);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.hero-image-mid {
+  background-color: rgb(33, 181, 107);
+}

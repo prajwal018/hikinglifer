@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  @apply text-black;
+  font-family: sans-serif, Poppins, Inter, system-ui, Avenir, Helvetica, Arial;
+  line-height: 1.5;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+input {
+  outline: none;
+}
+
+.no-scroll-bar {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.hero-image {
+  clip-path: polygon(100% 5.1%, 100% 62%, 62% 100%, 5.1% 100%);
+}
+.hero-image-small {
+  clip-path: polygon(100% 5%, 100% 65%, 65% 100%, 5% 100%);
+  background-color: rgb(33, 181, 107);
+}
+.hero-image-mid {
+  clip-path: polygon(100% 0, 100% 70%, 70% 100%, 0 100%);
+  background-color: rgb(8, 18, 32);
+}
+
+.activity-image-small {
+  clip-path: polygon(100% 5%, 100% 65%, 65% 100%, 5% 100%);
+  background-color: rgb(255, 91, 0);
+}
